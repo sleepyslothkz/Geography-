@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>GeoQuiz — World Capitals</title>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+
 <style>
   :root {
     --bg: #f4f6fb;
@@ -27,7 +27,7 @@
   body {
     background: var(--bg);
     color: var(--text);
-    font-family: 'DM Sans', sans-serif;
+    font-family: system-ui, -apple-system, sans-serif;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -63,7 +63,7 @@
   }
 
   .logo {
-    font-family: 'Playfair Display', serif;
+    font-family: Georgia, 'Times New Roman', serif;
     font-size: clamp(28px, 6vw, 40px);
     font-weight: 900;
     letter-spacing: -0.02em;
@@ -92,7 +92,7 @@
     border: 1.5px solid var(--border);
     border-radius: 10px;
     padding: 7px 13px;
-    font-family: 'DM Sans', sans-serif;
+    font-family: system-ui, -apple-system, sans-serif;
     font-size: 12px;
     font-weight: 500;
     color: var(--muted);
@@ -226,7 +226,7 @@
   .capital-text { flex: 1; }
 
   .capital-name {
-    font-family: 'Playfair Display', serif;
+    font-family: Georgia, 'Times New Roman', serif;
     font-size: clamp(22px, 5vw, 30px);
     font-weight: 700;
     line-height: 1.1;
@@ -350,7 +350,7 @@
   }
 
   .round-title {
-    font-family: 'Playfair Display', serif;
+    font-family: Georgia, 'Times New Roman', serif;
     font-size: clamp(26px, 6vw, 40px);
     font-weight: 900;
     margin-bottom: 8px;
@@ -371,7 +371,7 @@
     border: none;
     border-radius: 14px;
     padding: 15px 36px;
-    font-family: 'DM Sans', sans-serif;
+    font-family: system-ui, -apple-system, sans-serif;
     font-size: 15px;
     font-weight: 500;
     color: #fff;
@@ -389,7 +389,7 @@
     border: 1.5px solid var(--border);
     border-radius: 14px;
     padding: 15px 24px;
-    font-family: 'DM Sans', sans-serif;
+    font-family: system-ui, -apple-system, sans-serif;
     font-size: 15px;
     font-weight: 500;
     color: var(--muted);
@@ -447,7 +447,7 @@
     box-shadow: 0 8px 32px rgba(74,111,245,0.10);
   }
   .confirm-box h3 {
-    font-family: 'Playfair Display', serif;
+    font-family: Georgia, 'Times New Roman', serif;
     font-size: 22px;
     margin-bottom: 10px;
     color: var(--text);
@@ -460,7 +460,7 @@
     border: none;
     border-radius: 10px;
     padding: 11px 24px;
-    font-family: 'DM Sans', sans-serif;
+    font-family: system-ui, -apple-system, sans-serif;
     font-size: 14px;
     font-weight: 500;
     cursor: pointer;
@@ -473,7 +473,7 @@
     border: 1.5px solid var(--border);
     border-radius: 10px;
     padding: 11px 24px;
-    font-family: 'DM Sans', sans-serif;
+    font-family: system-ui, -apple-system, sans-serif;
     font-size: 14px;
     font-weight: 500;
     cursor: pointer;
@@ -629,4 +629,4 @@ const COUNTRIES = [
   { name:"Georgia",          capital:"Tbilisi",           flag:"🇬🇪", region:"Asia" },
   { name:"India",            capital:"New Delhi",         flag:"🇮🇳", region:"Asia" },
   { name:"Indonesia",        capital:"Jakarta",           flag:"🇮🇩", region:"Asia" },
-  { name:"Iran",         
+  { name:"Iran",             capital:"Tehran",   
